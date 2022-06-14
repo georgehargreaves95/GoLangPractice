@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"rsc.io/quote"
+)
 
 func main(){
 
@@ -11,4 +15,5 @@ func main(){
 	fmt.Println(HelloWorld)
 	fmt.Printf("X = %d, X-2 = %d\n", X, X-2)
 	fmt.Printf("Y = %d, Y+10 = %d\n", Y, Y+10)
+	fmt.Println(quote.Go())
 }
